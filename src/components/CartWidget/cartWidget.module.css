@@ -1,0 +1,35 @@
+.cartWidget {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 5px;
+  column-gap: 5px;
+  min-width: 130px;
+}
+
+.cartWidget:hover {
+  background-color: rgba(128, 128, 128, 0.2);
+}
+
+.active {
+  background-color: #313131;
+  color: #fff;
+}
+
+.active:hover {
+  background-color: #313131;
+}
+
+.iconActive {
+  color: #fff;
+}
+
+.value {
+  display: inline-block;
+  min-width: 70px;
+  text-align: right;
+  font-family: monospace;
+  font-size: 14px;
+}

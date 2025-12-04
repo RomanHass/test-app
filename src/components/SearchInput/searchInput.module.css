@@ -1,0 +1,43 @@
+.wrapper {
+  position: relative;
+}
+
+.iconBtn {
+  padding: 5px;
+  color: #5a5a5a;
+  background-color: unset;
+}
+
+.iconBtn svg {
+  fill: #5f5a5a;
+}
+
+.inputWrapper {
+  position: absolute;
+  top: 50%;
+  left: 45px;
+  transform: translateY(-50%);
+  opacity: 0;
+  pointer-events: none;
+
+  transition: opacity .25s ease;
+}
+
+.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.input {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 180px;
+  outline: none;
+  transition: border-color .2s ease;
+}
+
+.input:focus {
+  border-color: #000;
+}

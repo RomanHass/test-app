@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  margin-bottom: 30px;
+  padding: 10px;
+  column-gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.iconButton {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: rgba(128, 128, 128, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.iconButton:hover {
+  background-color: rgba(128, 128, 128, 0.2);
+}
+
+.iconButton svg {
+  width: 15px;
+  height: 15px;
+  transition: .25s;
+}
