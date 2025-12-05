@@ -1,12 +1,11 @@
 .container {
-  flex: 1 1 calc(100% - 320px);
-  min-height: 600px;
-  padding: 20px 15px 15px 20px;
-  border-radius: 60px 0 0 10px;
-  background-color: #FAF3E0;
-  transition: flex 0.3s ease;
+  width: clamp(1140px, 100%, 1300px);
 }
 
 .content {
+  min-height: 600px;
+  padding: 20px;
+  border-radius: 60px 0 0 10px;
+  background-color: #FAF3E0;
   color: #2C2C2C;
 }

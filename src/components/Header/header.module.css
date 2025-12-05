@@ -1,3 +1,14 @@
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  transition: max-width 0.3s ease;
+}
+
+.wide {
+  max-width: 1640px;
+}
+
 .header {
   display: flex;
   margin-bottom: 30px;
